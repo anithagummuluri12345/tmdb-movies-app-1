@@ -13,8 +13,8 @@ import { useMovieFetch } from './hooks/useMovieFetch'
 const Movie = ({ movieId }) => {
   const [movie, loading, error] = useMovieFetch(movieId); 
 
-  if (error) return <div> Something went wrong... </div>
-  if (loading) return <Spinner />
+  if (error) return <div>Something went wrong ...</div>;
+  if (loading) return <Spinner />;
 
   return (<div>
     <Navigation movie={movie.original_title} />
@@ -29,8 +29,6 @@ const Movie = ({ movieId }) => {
         <Actor key={actor.credit_id} actor={actor} />
       )}
     </Grid>
-    <Spinner />
-    Movie {movieId}
   </div>)
 }
 
