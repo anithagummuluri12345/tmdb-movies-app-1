@@ -1,8 +1,8 @@
 # Movie App 
-Movie app powered by the RMDB API. I made this primarily to learn more about react hooks. 
+Movie app powered by the [TMDB API](https://www.themoviedb.org/). I made this primarily to learn more about react hooks. 
 
 # Live Site Here
-https://rmdbmovies.netlify.app/
+https://tmdbmovies.netlify.app/
 
 Deployed using netlify ✨ feel free to:
 - Search for some of your favorite movies
