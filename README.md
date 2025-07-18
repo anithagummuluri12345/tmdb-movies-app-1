@@ -1,6 +1,6 @@
 # Movie App 
 Movie app powered by the [TMDB API](https://www.themoviedb.org/). I made this for fun primarily to learn more about react hooks. 
-
+  
 # Live Site Here
 https://tmdbmovies.netlify.app/
 
